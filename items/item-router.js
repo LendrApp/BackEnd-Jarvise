@@ -84,11 +84,7 @@ router.put('/:id', (req, res) => {
                 });
             });
     }
-    else {
-        res.status(400).json({
-            message: 'Please provide a name and bio for the item.'
-        });
-    };
+    
 });
 
 //DELETE Request
